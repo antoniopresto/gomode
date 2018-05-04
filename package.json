@@ -1,0 +1,25 @@
+{
+  "name": "gomode",
+  "version": "0.0.5",
+  "main": "./lib/index.js",
+  "author": "antoniosilva <antoniopresto@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "gomode": "./lib/gomode.js"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "piping": "^1.0.0-rc.4"
+  }
+}
